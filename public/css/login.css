@@ -1,0 +1,138 @@
+    body {
+        background-color: black;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 50px;
+    }
+
+    .allprofile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .profile {
+        text-align: center;
+    }
+
+    .profile img {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: solid 0 white;
+        transition: 0.1s ease-in-out;
+    }
+
+    .profile img:hover {
+        border: solid 3px white;
+    }
+
+    .profile p {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: white;
+    }
+
+
+    .manage-profile {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .manage-profile button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .manage-profile button:hover {
+        background-color: white;
+        color: black;
+    }
+    .allprofile {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Memastikan semua elemen sejajar secara vertikal */
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .add-profile {
+        font-size: 150px; /* Sesuaikan ukuran dengan gambar profil */
+        width: 150px;
+        height: 150px;
+        color: white;
+        cursor: pointer;
+        transition: 0.1s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Hover effect untuk tanda plus */
+    .add-profile:hover {
+        color: white;
+        border: solid 3px white;
+        border-radius: 10px;
+    }
+
+    /* Penempatan label "Tambah Profil" agar sejajar */
+    .profile p {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+
+    /* Optional: Jika tanda + masih tidak sejajar, tambahkan margin-top */
+    .add-profile {
+        margin-top: 0;
+    }
+
+    .formNew {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .profile-picture img {
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+    }
+    
+    .input-text {
+        width: 100%;
+        margin-left: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #444;
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+    }
+    hr {
+        border: 1px solid #b7b5b5;
+        margin-bottom: 20px;
+    }
+    .edit-akun{
+        cursor: pointer;
+        font-size: 25px;
+    }
+    
