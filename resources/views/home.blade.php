@@ -65,7 +65,7 @@
                 <div class="top"></div>
                 <div class="bottom"></div>
                 {{-- video --}}
-                <video src="/video/2521.mp4" autoplay muted loop></video>
+                <video src="/video/2521(2).mp4" autoplay muted loop></video>
                 {{-- end video --}}
                 {{-- <img src="/img/duama.png" alt=""> --}}
                 {{-- <img src="/img/ici.png" alt=""> --}}
