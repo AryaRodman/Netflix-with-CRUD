@@ -20,7 +20,7 @@
         <div class="container-fluid">
             <div class="netflix-row">
                 <section class="left d-flex align-items-center">
-                    <a class="navbar-brand" href="#" style="color: red">NETFLIX</a>
+                    <a class="navbar-brand" href="#" style="color: red">ARYAFLIX</a>
                     <!-- Dropdown -->
                     <div class="netflix-dropdown-box dropdown">
                         <button class="netflix-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown"
@@ -64,11 +64,15 @@
             <section class="netflix-video">
                 <div class="top"></div>
                 <div class="bottom"></div>
+                {{-- video --}}
                 <video src="/video/2521.mp4" autoplay muted loop></video>
-                
+                {{-- end video --}}
+                {{-- <img src="/img/duama.png" alt=""> --}}
+                {{-- <img src="/img/ici.png" alt=""> --}}
                 <div class="content">
                     <section class="left">
                         <img src="/img/sdsh.png" alt="">
+                        {{-- <img src="/img/btylo.png" alt=""> --}}
                         <div class="mt-2 d-flex">
                             <button type="button" class="btn btn-light m-2">
                                 <i class="bi bi-play-fill" style="color: black;padding:0px;"></i> Play
@@ -1253,7 +1257,7 @@
                         <section class="d-flex" style="position: absolute;">
                             <!-- Card -->
                             <div class="card">
-                                <img src="/img/h&l.jpeg" class="card-img-top" alt="...">
+                                <img src="/img/gmbl.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <section class="d-flex justify-content-between">
                                         <div>
@@ -1364,6 +1368,442 @@
                              <!-- Card -->
                              <div class="card">
                                 <img src="/img/h&l.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </section>
+    </div>
+    <!-- Slider End -->
+
+    <!-- Slider -->
+    <div class="slider-box">
+        <section class="container-fluid slider4">
+            <div class="d-flex justify-content-between">
+                <p class="text-white"><b>Animation</b></p>
+                <div>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+
+            <!-- Carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="position: relative; overflow: visible;">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <section class="d-flex" style="position: absolute;">
+                            <!-- Card -->
+                            <div class="card">
+                                <img src="/img/spdr.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/spdr.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/spdr.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/spdr.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/spdr.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/spdr.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                        </section>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <section class="d-flex" style="position: absolute;">
+                            <!-- Card -->
+                            <div class="card">
+                                <img src="/img/minion.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/minion.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/minion.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/minion.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/minion.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/minion.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                        </section>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <section class="d-flex" style="position: absolute;">
+                            <!-- Card -->
+                            <div class="card">
+                                <img src="/img/gmbl.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/gmbl.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/gmbl.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/gmbl.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/gmbl.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <section class="d-flex justify-content-between">
+                                        <div>
+                                            <i class="bi bi-play-circle-fill card-icon"></i>
+                                            <i class="bi bi-plus-circle card-icon"></i>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-hand-thumbs-up card-icon"></i>
+                                        </div>
+                                    </section>
+                                    <section class="d-flex justify-content-between align-items-center">
+                                        <p class ="netflix-card-text m-0"style="color: rgb(35, 243, 28)"> 97% match </p>
+                                        <span class="netflix-card-text m-2 text-white">Limited Series</span>
+                                        <span class="netflix-card-text border text-white p-1">HD</span>
+                                    </section>
+                                    <p class="m-0 netflix-card-text text-white">Penuh ketegangan • Seru • Cyberpunk</p>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                             <!-- Card -->
+                             <div class="card">
+                                <img src="/img/gmbl.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <section class="d-flex justify-content-between">
                                         <div>

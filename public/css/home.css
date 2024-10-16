@@ -60,11 +60,14 @@ body {
     z-index: 10;
     position: relative;
 }
-
+/* styling kalo video */
 .netflix-video video {
     width: 100%;
 }
-
+/* styling buat foto */
+.netflix-video img {
+    width: 100%;
+}
 .netflix-video .top {
     position: absolute;
     bottom: 0;
@@ -140,7 +143,7 @@ body {
     font-size: 13px;
 }
 .footer{
-    margin-top: 480px;
+    margin-top: 600px;
     height: 250px;
 }
 ul{
@@ -170,4 +173,9 @@ ul li:hover{
     position: absolute;
     top: 1100px;
     z-index: 500;
+}
+.slider4{
+    position: absolute;
+    top: 1300px;
+    z-index: 100;
 }
